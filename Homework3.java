@@ -9,12 +9,13 @@ public class Homework3{
         num1=Input.nextInt();
         System.out.print("Enter Second variable:");
         num2=Input.nextInt();
-        int new1=num2;
-        int new2=num1;
+        int temp=num1;
+        num1=num2;
+        num2=temp;
         System.out.println("Original First="+num1);
         System.out.println("Original Second="+num2);
-        System.out.println("New First="+new1);
-        System.out.println("New Second="+new2);
+        System.out.println("New First="+num1);
+        System.out.println("New Second="+num2);
 
     }
 }
